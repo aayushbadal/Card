@@ -77,3 +77,39 @@ hr{
 .author{
     color:#fff;
 }
+
+@media print{
+    body{
+        background-color:white;
+    }
+}
+
+/** for mobile devies **/
+@media (max-width:375px){
+    body{
+        padding:20px;
+    }
+
+    .card{
+        width:100%;
+    }
+}
+@media (min-width:375px) and (max-width:500px){
+    body{
+        padding:20px;
+    }
+
+    .card{
+        width:100%;
+    }
+}
+
+.cardheading:hover, .author:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+figure img:hover{
+    cursor: pointer;
+    
+}
